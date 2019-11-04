@@ -287,7 +287,8 @@ button:focus {
     width: 100%;
     height: 80vh;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
+    /* justify-content: space-between; rfq */
 }
 
 .mu-hero-featured-content {
@@ -1507,6 +1508,12 @@ button:focus {
 
 @media (max-width: 767px) {
 
+	.traners-moble {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
 	.mu-logo img {
 		width: 150px;
 	}
@@ -1533,6 +1540,7 @@ button:focus {
 
 
 @media (max-width: 640px){
+	
 	
 	.mu-event-counter-block {
 		height: 100px;
@@ -1573,6 +1581,7 @@ button:focus {
 
 @media (max-width: 480px) {
 
+	
 	body {
 		font-size: 14px;
 	}
@@ -1802,3 +1811,4 @@ button:focus {
 		width: 80%;
 	}
 }
+
