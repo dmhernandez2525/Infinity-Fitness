@@ -1311,14 +1311,17 @@ button:focus {
 }
 
 .mu-social-media {
-	display: inline;
-	float: left;
-	padding: 10px 0;
-	width: 100%;
-}
-
+    float: left;
+    padding: 10px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    align-items: baseline;
+	}
+	
 .mu-social-media a {
-	border: 1px solid #19191a;
+	/* border: 1px solid #19191a; */
 	border-radius: 50px;
 	color: #19191a;
 	display: inline-block;
@@ -1813,6 +1816,14 @@ button:focus {
 	}
 }
 
+
+@media (min-width: 768px){
+	.centerrr{
+		width: 100% !important;
+	}
+
+
+}
 .ChangeMe {
 	width: 100vw;
 	display: flex;

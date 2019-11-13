@@ -1386,3 +1386,24 @@ figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+.aaaaa{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.asdasdas{
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+}
+
+.fa-phone:before{
+      font-size: 75px;
+}
+.fa-facebook:before {
+      font-size: 75px;
+}
+
+/* .centerrr{
+  display: flex;
+  justify-content: center;
+} */
