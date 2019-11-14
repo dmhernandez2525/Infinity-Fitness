@@ -1407,3 +1407,9 @@ figure {
   display: flex;
   justify-content: center;
 } */
+
+.spacee{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5%;
+}
