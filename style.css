@@ -1821,6 +1821,11 @@ button:focus {
 	.centerrr{
 		width: 100% !important;
 	}
+	.aaaaa {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
 
 
 }
@@ -1828,4 +1833,8 @@ button:focus {
 	width: 100vw;
 	display: flex;
 	justify-content: center;
+}
+
+.dir-big {
+	font-size: 5vw;
 }
