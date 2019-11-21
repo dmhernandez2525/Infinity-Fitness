@@ -3688,8 +3688,11 @@ span.m_26 {
 .data, .data-middle{
 	width: 86.5%;
 }
+
+
 }
 @media (max-width:768px){
+
   .timetable
 	{
 		display:none;
@@ -4216,4 +4219,68 @@ span.m_26 {
 	.course_demo {
 		padding: 0 5%;
 	}
+}
+
+@media (min-width:993px){
+	.price_plans_box {
+		display: flex;
+		height: 30vh;
+		justify-content: center;
+	}
+
+	.price2 {
+		height: 100%;
+	}
+
+	.price2 h4 {
+		height: 33%;
+	}
+
+	.price2 h2 {
+		height: 33%;
+	}
+
+	.price2 ul {
+		height: 33%;
+	}
+
+	.price1 {
+		height: 100%;
+	}
+
+	.price1 h4 {
+		height: 33%;
+	}
+
+	.price1 h2 {
+		height: 33%;
+	}
+
+	.price1 ul {
+		height: 33%;
+	}
+
+
+
+}
+
+
+.m_2{
+	margin: 3% 0 3% !important;
+}
+
+.m_55{
+	text-align: center;
+	margin: 3%;
+}
+
+.m_2Main{
+	text-align: center;
+	font-size: xx-large;
+	color: black;
+	margin: 3% 0 11%;
+}
+
+.SpaceOutPriceing{
+	margin: 11% 0 11%;
 }
