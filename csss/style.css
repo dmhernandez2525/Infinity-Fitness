@@ -630,7 +630,8 @@ a {
     Price section              
 -----------------------------------------*/
 #price {
-  background: url('../images/price-bg.jpg') 50% 0 repeat-y fixed;
+  background: #4CB648;
+  /* background: url('../images/price-bg.jpg') 50% 0 repeat-y fixed; */
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -743,6 +744,7 @@ a {
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
+  list-style: none;
 }
 
 #price .pricing__item:hover .pricing__action {

@@ -4285,6 +4285,15 @@ span.m_26 {
 	margin: 11% 0 11%;
 }
 
+.navnav{
+
+	    display: flex;
+	    justify-content: center;
+}
+.navnavli{
+	border: 1px solid #0f0d0d;
+	width: 50%;
+}
 
 
 

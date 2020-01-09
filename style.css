@@ -221,7 +221,8 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("hero.jpg");
+	/* background-image: url("hero.jpg"); */
+	background-image: url("./newPics/logo.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -453,7 +454,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("virtual-tour.png");
+	background-image: url("./newPics/vid-back.jpeg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -1837,4 +1838,28 @@ button:focus {
 
 .dir-big {
 	font-size: 5vw;
+}
+#location-footer{
+    margin: 3vh;
+}
+
+.loll {
+    height: fit-content;
+    display: inline-block;
+    width: 100%;
+}
+.lollHey {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+.ttim {
+font-size: 7vw;
+margin-bottom:5vh ;
+}
+.mu-hero-featured-content h1 {
+	font-weight: 900;
 }
