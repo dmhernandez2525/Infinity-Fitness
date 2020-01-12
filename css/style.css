@@ -1402,6 +1402,9 @@ figure {
 .fa-facebook:before {
       font-size: 75px;
 }
+.fa-instagram:before {
+      font-size: 75px;
+}
 
 /* .centerrr{
   display: flex;
@@ -1412,4 +1415,13 @@ figure {
       display: flex;
       justify-content: center;
       margin-bottom: 5%;
+}
+
+#amanda{
+  background-image: url("../newPics/amanda.jpg");
+    background-size: cover;
+}
+#lisa{
+  background-image: url("../newPics/LisaDall.JPG");
+  background-size: cover;
 }
