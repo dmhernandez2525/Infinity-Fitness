@@ -752,7 +752,7 @@ figure {
 .team-section-grid {
   position: relative;
   background-size: cover;
-  height: 450px;
+  height: 500px;
   margin-bottom: 30px;
   overflow: hidden;
 }
@@ -1425,5 +1425,15 @@ figure {
 }
 #lisa{
   background-image: url("../newPics/LisaDall.JPG");
+  background-size: cover;
+}
+
+#paula{
+  background-image: url("../newPics/palla.jpg");
+  background-size: cover;
+}
+
+#guy{
+  background-image: url("../newPics/guy.jpg");
   background-size: cover;
 }

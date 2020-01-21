@@ -1826,6 +1826,7 @@ button:focus {
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 
 
@@ -1866,4 +1867,23 @@ margin-bottom:5vh ;
 
 #mu-venue, .spacee, .loll{
 	margin-top: 2vh;
+}
+
+@media (min-width: 992px){
+	.col-md-4 {
+		-webkit-text-stroke: thick;
+		display: flex;
+		flex-flow: column;
+	}
+}
+
+.trainer-bio {
+	-webkit-text-stroke: thick;
+}
+
+.trainer-bio-div{
+	display: flex;
+	flex-direction: column;
+	height: 460px;
+	justify-content: space-between;
 }
